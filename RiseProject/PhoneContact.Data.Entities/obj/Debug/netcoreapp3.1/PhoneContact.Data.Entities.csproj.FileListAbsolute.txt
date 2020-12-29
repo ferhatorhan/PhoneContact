@@ -1,0 +1,12 @@
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.Data.Entities\bin\Debug\netcoreapp3.1\PhoneContact.Data.Entities.deps.json
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.Data.Entities\bin\Debug\netcoreapp3.1\PhoneContact.Data.Entities.runtimeconfig.json
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.Data.Entities\bin\Debug\netcoreapp3.1\PhoneContact.Data.Entities.runtimeconfig.dev.json
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.Data.Entities\bin\Debug\netcoreapp3.1\PhoneContact.Data.Entities.dll
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.Data.Entities\bin\Debug\netcoreapp3.1\PhoneContact.Data.Entities.pdb
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.Data.Entities\obj\Debug\netcoreapp3.1\PhoneContact.Data.Entities.csprojAssemblyReference.cache
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.Data.Entities\obj\Debug\netcoreapp3.1\PhoneContact.Data.Entities.AssemblyInfoInputs.cache
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.Data.Entities\obj\Debug\netcoreapp3.1\PhoneContact.Data.Entities.AssemblyInfo.cs
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.Data.Entities\obj\Debug\netcoreapp3.1\PhoneContact.Data.Entities.csproj.CoreCompileInputs.cache
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.Data.Entities\obj\Debug\netcoreapp3.1\PhoneContact.Data.Entities.dll
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.Data.Entities\obj\Debug\netcoreapp3.1\PhoneContact.Data.Entities.pdb
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.Data.Entities\obj\Debug\netcoreapp3.1\PhoneContact.Data.Entities.genruntimeconfig.cache

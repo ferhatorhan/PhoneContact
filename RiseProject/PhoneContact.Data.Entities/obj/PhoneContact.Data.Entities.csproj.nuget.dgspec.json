@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Data.Entities\\PhoneContact.Data.Entities.csproj": {}
+    "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Data.Entities\\PhoneContact.Data.Entities.csproj": {}
   },
   "projects": {
-    "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Data.Entities\\PhoneContact.Data.Entities.csproj": {
+    "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Data.Entities\\PhoneContact.Data.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Data.Entities\\PhoneContact.Data.Entities.csproj",
+        "projectUniqueName": "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Data.Entities\\PhoneContact.Data.Entities.csproj",
         "projectName": "PhoneContact.Data.Entities",
-        "projectPath": "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Data.Entities\\PhoneContact.Data.Entities.csproj",
+        "projectPath": "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Data.Entities\\PhoneContact.Data.Entities.csproj",
         "packagesPath": "C:\\Users\\SoftDevPc\\.nuget\\packages\\",
-        "outputPath": "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Data.Entities\\obj\\",
+        "outputPath": "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Data.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

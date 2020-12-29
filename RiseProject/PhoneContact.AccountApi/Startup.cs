@@ -1,11 +1,15 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
 using PhoneContact.Core.Helpers;
+using PhoneContact.Data.Abstract;
+using PhoneContact.Data.EfDbContext;
+using PhoneContact.Data.Uow;
 using PhoneContact.Engine.Abstract;
 using PhoneContact.Engine.Services;
 using System.Text;
@@ -27,6 +31,9 @@ namespace PhoneContact.AccountApi
 
             services.AddControllers();
             //services.AddDbContext<UserContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddMemoryCache();
+            services.AddDbContext<PhoneContactContext>(options =>
+            options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
             services.AddCors();
             var appSettingsSection = Configuration.GetSection("AppSettings");
@@ -57,7 +64,12 @@ namespace PhoneContact.AccountApi
                        ValidateAudience = false
                    };
                }); 
-            services.AddTransient<IUSerService, UserManager>();
+            
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddTransient<IAppSettings, AppSettings>();
+            services.AddTransient<IUSerServices, UserManager>();
+            services.AddTransient<IContactService, ContactManager>();
+            services.AddTransient<ICacheManagementService, CacheManager>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

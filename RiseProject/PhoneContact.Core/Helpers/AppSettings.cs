@@ -4,7 +4,7 @@ using System.Text;
 
 namespace PhoneContact.Core.Helpers
 {
-    public class AppSettings
+    public class AppSettings: IAppSettings
     {
         public string SecretKey { get; set; }
     }

@@ -1,0 +1,17 @@
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.Data\bin\Debug\netcoreapp3.1\PhoneContact.Data.deps.json
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.Data\bin\Debug\netcoreapp3.1\PhoneContact.Data.runtimeconfig.json
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.Data\bin\Debug\netcoreapp3.1\PhoneContact.Data.runtimeconfig.dev.json
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.Data\bin\Debug\netcoreapp3.1\PhoneContact.Data.dll
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.Data\bin\Debug\netcoreapp3.1\PhoneContact.Data.pdb
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.Data\bin\Debug\netcoreapp3.1\PhoneContact.Core.dll
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.Data\bin\Debug\netcoreapp3.1\PhoneContact.Data.Entities.dll
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.Data\bin\Debug\netcoreapp3.1\PhoneContact.Core.pdb
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.Data\bin\Debug\netcoreapp3.1\PhoneContact.Data.Entities.pdb
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.Data\obj\Debug\netcoreapp3.1\PhoneContact.Data.csprojAssemblyReference.cache
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.Data\obj\Debug\netcoreapp3.1\PhoneContact.Data.AssemblyInfoInputs.cache
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.Data\obj\Debug\netcoreapp3.1\PhoneContact.Data.AssemblyInfo.cs
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.Data\obj\Debug\netcoreapp3.1\PhoneContact.Data.csproj.CoreCompileInputs.cache
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.Data\obj\Debug\netcoreapp3.1\PhoneContact.Data.csproj.CopyComplete
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.Data\obj\Debug\netcoreapp3.1\PhoneContact.Data.dll
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.Data\obj\Debug\netcoreapp3.1\PhoneContact.Data.pdb
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.Data\obj\Debug\netcoreapp3.1\PhoneContact.Data.genruntimeconfig.cache

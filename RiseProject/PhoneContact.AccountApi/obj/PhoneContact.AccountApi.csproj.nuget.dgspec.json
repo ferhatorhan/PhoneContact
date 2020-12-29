@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ferhat\\tak\\RiseProject\\PhoneContact.AccountApi\\PhoneContact.AccountApi.csproj": {}
+    "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.AccountApi\\PhoneContact.AccountApi.csproj": {}
   },
   "projects": {
-    "D:\\ferhat\\tak\\RiseProject\\PhoneContact.AccountApi\\PhoneContact.AccountApi.csproj": {
+    "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.AccountApi\\PhoneContact.AccountApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ferhat\\tak\\RiseProject\\PhoneContact.AccountApi\\PhoneContact.AccountApi.csproj",
+        "projectUniqueName": "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.AccountApi\\PhoneContact.AccountApi.csproj",
         "projectName": "PhoneContact.AccountApi",
-        "projectPath": "D:\\ferhat\\tak\\RiseProject\\PhoneContact.AccountApi\\PhoneContact.AccountApi.csproj",
+        "projectPath": "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.AccountApi\\PhoneContact.AccountApi.csproj",
         "packagesPath": "C:\\Users\\SoftDevPc\\.nuget\\packages\\",
-        "outputPath": "D:\\ferhat\\tak\\RiseProject\\PhoneContact.AccountApi\\obj\\",
+        "outputPath": "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.AccountApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -33,14 +33,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Data.Entities\\PhoneContact.Data.Entities.csproj": {
-                "projectPath": "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Data.Entities\\PhoneContact.Data.Entities.csproj"
+              "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Data.Entities\\PhoneContact.Data.Entities.csproj": {
+                "projectPath": "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Data.Entities\\PhoneContact.Data.Entities.csproj"
               },
-              "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Data\\PhoneContact.Data.csproj": {
-                "projectPath": "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Data\\PhoneContact.Data.csproj"
+              "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Data\\PhoneContact.Data.csproj": {
+                "projectPath": "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Data\\PhoneContact.Data.csproj"
               },
-              "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Engine\\PhoneContact.Engine.csproj": {
-                "projectPath": "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Engine\\PhoneContact.Engine.csproj"
+              "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Engine\\PhoneContact.Engine.csproj": {
+                "projectPath": "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Engine\\PhoneContact.Engine.csproj"
               }
             }
           }
@@ -98,14 +98,14 @@
         }
       }
     },
-    "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Core\\PhoneContact.Core.csproj": {
+    "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Core\\PhoneContact.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Core\\PhoneContact.Core.csproj",
+        "projectUniqueName": "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Core\\PhoneContact.Core.csproj",
         "projectName": "PhoneContact.Core",
-        "projectPath": "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Core\\PhoneContact.Core.csproj",
+        "projectPath": "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Core\\PhoneContact.Core.csproj",
         "packagesPath": "C:\\Users\\SoftDevPc\\.nuget\\packages\\",
-        "outputPath": "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Core\\obj\\",
+        "outputPath": "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -173,14 +173,14 @@
         }
       }
     },
-    "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Data.Entities\\PhoneContact.Data.Entities.csproj": {
+    "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Data.Entities\\PhoneContact.Data.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Data.Entities\\PhoneContact.Data.Entities.csproj",
+        "projectUniqueName": "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Data.Entities\\PhoneContact.Data.Entities.csproj",
         "projectName": "PhoneContact.Data.Entities",
-        "projectPath": "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Data.Entities\\PhoneContact.Data.Entities.csproj",
+        "projectPath": "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Data.Entities\\PhoneContact.Data.Entities.csproj",
         "packagesPath": "C:\\Users\\SoftDevPc\\.nuget\\packages\\",
-        "outputPath": "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Data.Entities\\obj\\",
+        "outputPath": "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Data.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -256,14 +256,14 @@
         }
       }
     },
-    "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Data\\PhoneContact.Data.csproj": {
+    "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Data\\PhoneContact.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Data\\PhoneContact.Data.csproj",
+        "projectUniqueName": "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Data\\PhoneContact.Data.csproj",
         "projectName": "PhoneContact.Data",
-        "projectPath": "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Data\\PhoneContact.Data.csproj",
+        "projectPath": "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Data\\PhoneContact.Data.csproj",
         "packagesPath": "C:\\Users\\SoftDevPc\\.nuget\\packages\\",
-        "outputPath": "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Data\\obj\\",
+        "outputPath": "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -285,11 +285,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Core\\PhoneContact.Core.csproj": {
-                "projectPath": "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Core\\PhoneContact.Core.csproj"
+              "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Core\\PhoneContact.Core.csproj": {
+                "projectPath": "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Core\\PhoneContact.Core.csproj"
               },
-              "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Data.Entities\\PhoneContact.Data.Entities.csproj": {
-                "projectPath": "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Data.Entities\\PhoneContact.Data.Entities.csproj"
+              "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Data.Entities\\PhoneContact.Data.Entities.csproj": {
+                "projectPath": "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Data.Entities\\PhoneContact.Data.Entities.csproj"
               }
             }
           }
@@ -358,14 +358,14 @@
         }
       }
     },
-    "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Engine\\PhoneContact.Engine.csproj": {
+    "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Engine\\PhoneContact.Engine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Engine\\PhoneContact.Engine.csproj",
+        "projectUniqueName": "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Engine\\PhoneContact.Engine.csproj",
         "projectName": "PhoneContact.Engine",
-        "projectPath": "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Engine\\PhoneContact.Engine.csproj",
+        "projectPath": "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Engine\\PhoneContact.Engine.csproj",
         "packagesPath": "C:\\Users\\SoftDevPc\\.nuget\\packages\\",
-        "outputPath": "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Engine\\obj\\",
+        "outputPath": "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Engine\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -387,11 +387,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Data.Entities\\PhoneContact.Data.Entities.csproj": {
-                "projectPath": "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Data.Entities\\PhoneContact.Data.Entities.csproj"
+              "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Data.Entities\\PhoneContact.Data.Entities.csproj": {
+                "projectPath": "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Data.Entities\\PhoneContact.Data.Entities.csproj"
               },
-              "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Data\\PhoneContact.Data.csproj": {
-                "projectPath": "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Data\\PhoneContact.Data.csproj"
+              "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Data\\PhoneContact.Data.csproj": {
+                "projectPath": "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Data\\PhoneContact.Data.csproj"
               }
             }
           }

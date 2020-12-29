@@ -1,0 +1,12 @@
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.Core\bin\Debug\netcoreapp3.1\PhoneContact.Core.deps.json
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.Core\bin\Debug\netcoreapp3.1\PhoneContact.Core.runtimeconfig.json
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.Core\bin\Debug\netcoreapp3.1\PhoneContact.Core.runtimeconfig.dev.json
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.Core\bin\Debug\netcoreapp3.1\PhoneContact.Core.dll
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.Core\bin\Debug\netcoreapp3.1\PhoneContact.Core.pdb
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.Core\obj\Debug\netcoreapp3.1\PhoneContact.Core.csprojAssemblyReference.cache
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.Core\obj\Debug\netcoreapp3.1\PhoneContact.Core.AssemblyInfoInputs.cache
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.Core\obj\Debug\netcoreapp3.1\PhoneContact.Core.AssemblyInfo.cs
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.Core\obj\Debug\netcoreapp3.1\PhoneContact.Core.csproj.CoreCompileInputs.cache
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.Core\obj\Debug\netcoreapp3.1\PhoneContact.Core.dll
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.Core\obj\Debug\netcoreapp3.1\PhoneContact.Core.pdb
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.Core\obj\Debug\netcoreapp3.1\PhoneContact.Core.genruntimeconfig.cache

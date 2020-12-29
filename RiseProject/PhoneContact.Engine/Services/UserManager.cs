@@ -1,9 +1,9 @@
-﻿using Microsoft.IdentityModel.Tokens;
+﻿using Microsoft.Extensions.Options;
+using Microsoft.IdentityModel.Tokens;
 using PhoneContact.Core.Helpers;
 using PhoneContact.Data.Abstract;
 using PhoneContact.Engine.Abstract;
 using System;
-using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
@@ -11,20 +11,21 @@ using System.Threading.Tasks;
 
 namespace PhoneContact.Engine.Services
 {
-    public class UserManager : BusinessEngineBase, IUSerService
+    public class UserManager : BusinessEngineBase, IUSerServices
     {
         private readonly IUnitOfWork _Uow;
-        private readonly AppSettings _appSettings;
-        public UserManager(IUnitOfWork Uow, AppSettings appSettings)
+        private readonly  AppSettings _appSettings;
+        public UserManager(IUnitOfWork Uow, IOptions<AppSettings>   appSettings)
         {
-            _appSettings = appSettings;
+            _appSettings = appSettings.Value;
             _Uow = Uow;
         }
         public Task<UserResponse> Authenticate(string username, string password)
         {
             return ExecuteWithExceptionHandledOperation(async () =>
            {
-               var user = await _Uow.UserRepostiyory.GetEntityAsync(o => o.UserName == username && o.Password == password);
+               var usesr = await _Uow.UserRepostiyory.GetAllAsync();
+               var user = await _Uow.UserRepostiyory.FindByAsync(o => o.UserName == username && o.Password == password);
                if (user == null)
                {
                    return null;

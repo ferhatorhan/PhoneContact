@@ -43,7 +43,8 @@ namespace PhoneContact.Api
             services.AddDbContext<PhoneContactContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddScoped<IUnitOfWork, UnitOfWork>();
-            services.AddTransient<IUSerService, UserManager>();
+            services.AddTransient<IAppSettings, AppSettings>();
+            services.AddTransient<IUSerServices, UserManager>();
             services.AddTransient<IContactService, ContactManager>();
             services.AddTransient<ICacheManagementService, CacheManager>();
         

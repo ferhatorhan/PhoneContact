@@ -6295,11 +6295,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Api\\PhoneContact.Api.csproj",
+      "projectUniqueName": "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Api\\PhoneContact.Api.csproj",
       "projectName": "PhoneContact.Api",
-      "projectPath": "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Api\\PhoneContact.Api.csproj",
+      "projectPath": "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Api\\PhoneContact.Api.csproj",
       "packagesPath": "C:\\Users\\SoftDevPc\\.nuget\\packages\\",
-      "outputPath": "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Api\\obj\\",
+      "outputPath": "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -6321,17 +6321,17 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Core\\PhoneContact.Core.csproj": {
-              "projectPath": "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Core\\PhoneContact.Core.csproj"
+            "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Core\\PhoneContact.Core.csproj": {
+              "projectPath": "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Core\\PhoneContact.Core.csproj"
             },
-            "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Data.Entities\\PhoneContact.Data.Entities.csproj": {
-              "projectPath": "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Data.Entities\\PhoneContact.Data.Entities.csproj"
+            "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Data.Entities\\PhoneContact.Data.Entities.csproj": {
+              "projectPath": "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Data.Entities\\PhoneContact.Data.Entities.csproj"
             },
-            "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Data\\PhoneContact.Data.csproj": {
-              "projectPath": "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Data\\PhoneContact.Data.csproj"
+            "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Data\\PhoneContact.Data.csproj": {
+              "projectPath": "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Data\\PhoneContact.Data.csproj"
             },
-            "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Engine\\PhoneContact.Engine.csproj": {
-              "projectPath": "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Engine\\PhoneContact.Engine.csproj"
+            "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Engine\\PhoneContact.Engine.csproj": {
+              "projectPath": "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Engine\\PhoneContact.Engine.csproj"
             }
           }
         }
