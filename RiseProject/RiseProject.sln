@@ -7,31 +7,33 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{4A3A3E4F-0
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{EB4BC215-E7A1-4F9E-A8E2-27A11A20EEE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneContact.Data", "PhoneContact.Data\PhoneContact.Data.csproj", "{8B48C410-5F59-4F59-A3CD-A7AAD75F523B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneContact.Data", "PhoneContact.Data\PhoneContact.Data.csproj", "{8B48C410-5F59-4F59-A3CD-A7AAD75F523B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneContact.Core", "PhoneContact.Core\PhoneContact.Core.csproj", "{74B2F125-F8A6-4D02-8861-20A334009E69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneContact.Core", "PhoneContact.Core\PhoneContact.Core.csproj", "{74B2F125-F8A6-4D02-8861-20A334009E69}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{1C6DBBF1-1420-4BDC-A485-7DD43CB4DB01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneContact.Engine", "PhoneContact.Engine\PhoneContact.Engine.csproj", "{A3773493-688D-490B-BD4B-48D34EBB4F49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneContact.Engine", "PhoneContact.Engine\PhoneContact.Engine.csproj", "{A3773493-688D-490B-BD4B-48D34EBB4F49}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{604B88CB-2C35-4DD0-96CE-3122481CD4B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneContact.Api", "PhoneContact.Api\PhoneContact.Api.csproj", "{97CA0819-5758-496D-8C2D-68A60E91BF3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneContact.Api", "PhoneContact.Api\PhoneContact.Api.csproj", "{97CA0819-5758-496D-8C2D-68A60E91BF3B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{A7CFF38B-D84E-45C9-949C-57BE4646B0D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneContact.Test", "PhoneContact.Test\PhoneContact.Test.csproj", "{7209040C-81DD-4A9E-BC06-C7C135C1087A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneContact.Test", "PhoneContact.Test\PhoneContact.Test.csproj", "{7209040C-81DD-4A9E-BC06-C7C135C1087A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneContact.Data.Entities", "PhoneContact.Data.Entities\PhoneContact.Data.Entities.csproj", "{09FB7785-5F0C-4B39-95FD-DA46728FF1F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneContact.Data.Entities", "PhoneContact.Data.Entities\PhoneContact.Data.Entities.csproj", "{09FB7785-5F0C-4B39-95FD-DA46728FF1F5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AccountApi", "AccountApi", "{DD55043C-7EE4-4843-A681-A3FB070175D6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ContactApi", "ContactApi", "{98C4BF64-C520-4CD4-9E41-B5BB7C699CD9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneContact.AccountApi", "PhoneContact.AccountApi\PhoneContact.AccountApi.csproj", "{94626F4C-9DF9-45F0-975D-612080F6861C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneContact.AccountApi", "PhoneContact.AccountApi\PhoneContact.AccountApi.csproj", "{94626F4C-9DF9-45F0-975D-612080F6861C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneContact.ApiGateWay", "PhoneContact.ApiGateWay\PhoneContact.ApiGateWay.csproj", "{1C7414E8-81E2-4121-8129-484FF567D46E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneContact.ApiGateWay", "PhoneContact.ApiGateWay\PhoneContact.ApiGateWay.csproj", "{1C7414E8-81E2-4121-8129-484FF567D46E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AngularWeb", "AngularWeb", "{C1CBDEC9-4295-4B6D-AE69-69960A4A7573}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -86,6 +88,7 @@ Global
 		{98C4BF64-C520-4CD4-9E41-B5BB7C699CD9} = {604B88CB-2C35-4DD0-96CE-3122481CD4B7}
 		{94626F4C-9DF9-45F0-975D-612080F6861C} = {DD55043C-7EE4-4843-A681-A3FB070175D6}
 		{1C7414E8-81E2-4121-8129-484FF567D46E} = {604B88CB-2C35-4DD0-96CE-3122481CD4B7}
+		{C1CBDEC9-4295-4B6D-AE69-69960A4A7573} = {604B88CB-2C35-4DD0-96CE-3122481CD4B7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E2DC9C3F-627F-4D68-826A-4513510AD4D7}

@@ -18,7 +18,7 @@ namespace PhoneContact.Data.Abstract
         Task<List<T>> PageAsync(string sort, bool desc, int take, int skip, params Expression<Func<T, object>>[] include);
         Task<List<T>> SearchByAsync(string sort, bool desc, Expression<Func<T, bool>> searchBy, params Expression<Func<T, object>>[] includes);
         Task<List<T>> GetAllAsync();
-        Task<T> GetEntityAsync(params Expression<Func<T, object>>[] includes);
+      
         Task<List<T>> GetAllAsync(params Expression<Func<T, object>>[] includes);
         Task<T> FindByAsync(Expression<Func<T, bool>> predicate, params Expression<Func<T, object>>[] includes);
         Task<T> GetByIdAsync(object id);

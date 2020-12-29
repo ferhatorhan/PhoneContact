@@ -146,15 +146,6 @@ namespace PhoneContact.Data.Repository
 
             return await result.ToListAsync();
         }
-
-        public virtual async Task<T> GetEntityAsync(params Expression<Func<T, object>>[] includes)
-        {
-            var result = context.Set<T>().Where(i => true);
-
-            foreach (var includeExpression in includes)
-                result = result.Include(includeExpression);
-
-            return await result.FirstOrDefaultAsync();
-        }
+ 
     }
 }

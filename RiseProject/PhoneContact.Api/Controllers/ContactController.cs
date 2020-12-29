@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 namespace PhoneContact.Api.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class ContactController : ControllerBase
     {
         private readonly IContactService _contactService;

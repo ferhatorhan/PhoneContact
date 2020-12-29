@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PhoneContact.Engine.Abstract
 {
-    public interface IUSerService
+    public interface IUSerServices
     {
         Task<UserResponse> Authenticate(string username, string password);
 

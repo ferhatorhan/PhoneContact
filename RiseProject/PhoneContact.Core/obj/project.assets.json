@@ -1602,11 +1602,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Core\\PhoneContact.Core.csproj",
+      "projectUniqueName": "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Core\\PhoneContact.Core.csproj",
       "projectName": "PhoneContact.Core",
-      "projectPath": "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Core\\PhoneContact.Core.csproj",
+      "projectPath": "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Core\\PhoneContact.Core.csproj",
       "packagesPath": "C:\\Users\\SoftDevPc\\.nuget\\packages\\",
-      "outputPath": "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Core\\obj\\",
+      "outputPath": "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

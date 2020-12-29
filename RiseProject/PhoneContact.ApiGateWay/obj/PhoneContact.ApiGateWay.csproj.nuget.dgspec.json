@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ferhat\\tak\\RiseProject\\PhoneContact.ApiGateWay\\PhoneContact.ApiGateWay.csproj": {}
+    "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.ApiGateWay\\PhoneContact.ApiGateWay.csproj": {}
   },
   "projects": {
-    "D:\\ferhat\\tak\\RiseProject\\PhoneContact.ApiGateWay\\PhoneContact.ApiGateWay.csproj": {
+    "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.ApiGateWay\\PhoneContact.ApiGateWay.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ferhat\\tak\\RiseProject\\PhoneContact.ApiGateWay\\PhoneContact.ApiGateWay.csproj",
+        "projectUniqueName": "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.ApiGateWay\\PhoneContact.ApiGateWay.csproj",
         "projectName": "PhoneContact.ApiGateWay",
-        "projectPath": "D:\\ferhat\\tak\\RiseProject\\PhoneContact.ApiGateWay\\PhoneContact.ApiGateWay.csproj",
+        "projectPath": "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.ApiGateWay\\PhoneContact.ApiGateWay.csproj",
         "packagesPath": "C:\\Users\\SoftDevPc\\.nuget\\packages\\",
-        "outputPath": "D:\\ferhat\\tak\\RiseProject\\PhoneContact.ApiGateWay\\obj\\",
+        "outputPath": "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.ApiGateWay\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

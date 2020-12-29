@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Test\\PhoneContact.Test.csproj": {}
+    "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Test\\PhoneContact.Test.csproj": {}
   },
   "projects": {
-    "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Test\\PhoneContact.Test.csproj": {
+    "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Test\\PhoneContact.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Test\\PhoneContact.Test.csproj",
+        "projectUniqueName": "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Test\\PhoneContact.Test.csproj",
         "projectName": "PhoneContact.Test",
-        "projectPath": "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Test\\PhoneContact.Test.csproj",
+        "projectPath": "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Test\\PhoneContact.Test.csproj",
         "packagesPath": "C:\\Users\\SoftDevPc\\.nuget\\packages\\",
-        "outputPath": "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Test\\obj\\",
+        "outputPath": "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

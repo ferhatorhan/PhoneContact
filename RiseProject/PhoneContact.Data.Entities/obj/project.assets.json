@@ -6119,11 +6119,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Data.Entities\\PhoneContact.Data.Entities.csproj",
+      "projectUniqueName": "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Data.Entities\\PhoneContact.Data.Entities.csproj",
       "projectName": "PhoneContact.Data.Entities",
-      "projectPath": "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Data.Entities\\PhoneContact.Data.Entities.csproj",
+      "projectPath": "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Data.Entities\\PhoneContact.Data.Entities.csproj",
       "packagesPath": "C:\\Users\\SoftDevPc\\.nuget\\packages\\",
-      "outputPath": "D:\\ferhat\\tak\\RiseProject\\PhoneContact.Data.Entities\\obj\\",
+      "outputPath": "D:\\ferhat\\PhoneContact\\RiseProject\\PhoneContact.Data.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

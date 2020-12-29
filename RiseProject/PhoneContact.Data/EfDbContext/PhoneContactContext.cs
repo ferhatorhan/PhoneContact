@@ -10,7 +10,7 @@
         public virtual DbSet<ContactEntity> Contact { get; set; }
         public virtual DbSet<ContentTypeEntity> ContentType { get; set; }
         public virtual DbSet<CommunicationInfoEntity> CommunicationInfo { get; set; }
-        //public virtual DbSet<UserEntity> Users { get; set; }
+        public virtual DbSet<UserEntity> Users { get; set; }
 
     }
 }
