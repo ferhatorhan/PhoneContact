@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using PhoneContact.Core.Model.Request;
 using PhoneContact.Engine.Abstract;
 using PhoneContact.Engine.Models;
 using System;
@@ -27,6 +28,31 @@ namespace PhoneContact.Api.Controllers
         public Task<List<ContactDTO>> Get()
         {
             return _contactService.Get();
+        }
+        [HttpGet]
+        public Task<ContactDTO> Get(int id)
+        {
+            return _contactService.GetById(id);
+        }
+        [HttpPost]
+        public Task<int> AddCommunication([FromBody] CommunicationRequestModel requestModel)
+        {
+            return _contactService.AddCommunication(requestModel);
+        }
+        [HttpPost]
+        public Task<int> UpdateComInfo([FromBody] CommunicationRequestModel requestModel)
+        {
+            return _contactService.UpdateCommunication(requestModel);
+        }
+        [HttpDelete]
+        public Task<int> DeleteComInfo(int id)
+        {
+            return _contactService.DeleteCommunication(id);
+        }
+        [HttpDelete]
+        public Task Delete(int Id)
+        {
+            return _contactService.Delete(Id);
         }
     }
 }

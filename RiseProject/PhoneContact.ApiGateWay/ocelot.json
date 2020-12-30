@@ -41,6 +41,6 @@
     "ServiceDiscoveryProvider": {
       "Type": "Eureka"
     },
-    "BaseUrl": "http://localhost:58243"
+    "BaseUrl": "http://localhost:58243/contact-service"
   }
 }

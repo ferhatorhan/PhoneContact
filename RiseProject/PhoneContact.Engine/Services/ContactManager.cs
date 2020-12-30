@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Logging;
+using PhoneContact.Core.Model.Request;
 using PhoneContact.Data.Abstract;
 using PhoneContact.Data.Entities;
 using PhoneContact.Engine.Abstract;
@@ -43,18 +44,7 @@ namespace PhoneContact.Engine.Services
             });
         }
 
-        public Task<int> AddCommunication(int Id, CommunicationInfoDTO Communication)
-        {
-            return ExecuteWithExceptionHandledOperation(async () =>
-            {
-                var Persons = await _Uow.PersonEntity.GetByIdAsync(Id);
-                var dbmodel = Mapper.Map<CommunicationInfoEntity>(Communication);
-                Persons.CommunicationInfo.Add(dbmodel);
-                await _Uow.PersonEntity.UpdateAsync(Persons);
-                await _Uow.Commit();
-                return Persons.Id;
-            });
-        }
+
 
         public Task Delete(int Id)
         {
@@ -102,6 +92,49 @@ namespace PhoneContact.Engine.Services
         public Task<int> Update(int Id, ContactDTO Entity)
         {
             throw new NotImplementedException();
+        }
+
+        public Task<int> AddCommunication(CommunicationRequestModel Communication)
+        {
+            return ExecuteWithExceptionHandledOperation(async () =>
+            {
+                var Persons = await _Uow.PersonEntity.GetByIdAsync(Communication.UUID);
+                var dbmodel = Mapper.Map<CommunicationInfoEntity>(Communication);
+                Persons.CommunicationInfo.Add(dbmodel);
+                await _Uow.PersonEntity.UpdateAsync(Persons);
+                await _Uow.Commit();
+                return Persons.Id;
+            });
+        }
+
+        public Task DeleteCommunication(int Id)
+        {
+            return ExecuteWithExceptionHandledOperation(async () =>
+            {
+                await _Uow.CommunicationInfo.DeleteAsync(x => x.Id == Id);
+                await _Uow.Commit();
+            });
+        }
+
+        Task<int> IContactService.DeleteCommunication(int Id)
+        {
+            return ExecuteWithExceptionHandledOperation(async () =>
+            {
+                await _Uow.CommunicationInfo.DeleteAsync(o => o.Id == Id);
+                await _Uow.Commit();
+                return Id;
+            });
+        }
+
+        public Task<int> UpdateCommunication(CommunicationRequestModel Communication)
+        {
+            return ExecuteWithExceptionHandledOperation(async () =>
+            {
+                var dbmodel = Mapper.Map<CommunicationInfoEntity>(Communication);
+                await _Uow.CommunicationInfo.UpdateAsync(dbmodel);
+                await _Uow.Commit();
+                return Communication.id;
+            });
         }
     }
 }
