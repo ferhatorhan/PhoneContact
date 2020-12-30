@@ -1,7 +1,9 @@
 ﻿using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using PhoneContact.Core.Helpers;
+using PhoneContact.Core.Model.Request;
 using PhoneContact.Data.Abstract;
+using PhoneContact.Data.Entities;
 using PhoneContact.Engine.Abstract;
 using System;
 using System.IdentityModel.Tokens.Jwt;
@@ -14,12 +16,23 @@ namespace PhoneContact.Engine.Services
     public class UserManager : BusinessEngineBase, IUSerServices
     {
         private readonly IUnitOfWork _Uow;
-        private readonly  AppSettings _appSettings;
-        public UserManager(IUnitOfWork Uow, IOptions<AppSettings>   appSettings)
+        private readonly AppSettings _appSettings;
+        public UserManager(IUnitOfWork Uow, IOptions<AppSettings> appSettings)
         {
             _appSettings = appSettings.Value;
             _Uow = Uow;
         }
+
+        public Task Add(UserRequestModel requestModel)
+        {
+            return ExecuteWithExceptionHandledOperation(async () =>
+            {
+                var dbmodel = Mapper.Map<UserEntity>(requestModel);
+                await _Uow.UserRepostiyory.AddAsync(dbmodel);
+                await _Uow.Commit();
+            });
+        }
+
         public Task<UserResponse> Authenticate(string username, string password)
         {
             return ExecuteWithExceptionHandledOperation(async () =>

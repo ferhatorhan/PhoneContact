@@ -22,6 +22,6 @@ namespace PhoneContact.Data.Abstract
         Task<List<T>> GetAllAsync(params Expression<Func<T, object>>[] includes);
         Task<T> FindByAsync(Expression<Func<T, bool>> predicate, params Expression<Func<T, object>>[] includes);
         Task<T> GetByIdAsync(object id);
-
+        
     }
 }

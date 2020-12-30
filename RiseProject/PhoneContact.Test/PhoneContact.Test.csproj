@@ -7,9 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Moq" Version="4.15.2" />
     <PackageReference Include="NUnit" Version="3.12.0" />
     <PackageReference Include="NUnit3TestAdapter" Version="3.16.1" />
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0"/>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PhoneContact.Core\PhoneContact.Core.csproj" />
+    <ProjectReference Include="..\PhoneContact.Data.Entities\PhoneContact.Data.Entities.csproj" />
+    <ProjectReference Include="..\PhoneContact.Data\PhoneContact.Data.csproj" />
+    <ProjectReference Include="..\PhoneContact.Engine\PhoneContact.Engine.csproj" />
   </ItemGroup>
 
 </Project>

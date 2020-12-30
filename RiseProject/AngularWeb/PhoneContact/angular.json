@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "PhoneContact"
+  "defaultProject": "PhoneContact",
+  "cli": {
+    "analytics": "214dba78-368f-4cd2-8500-468658cffaa8"
+  }
 }

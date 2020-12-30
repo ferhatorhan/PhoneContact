@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using PhoneContact.Core.Model.Request;
 using PhoneContact.Data.Entities;
 using PhoneContact.Engine.Models;
 using System;
@@ -15,7 +16,7 @@ namespace PhoneContact.Engine.Mapper
                                            dest => dest.MapFrom(map => map.Type));
             mapperConfiguration.CreateMap<ContentTypeDTO, ContentTypeEntity>();
             mapperConfiguration.CreateMap<ContactDTO, ContactEntity>().ForMember(member => member.CommunicationInfo,
-                                           dest => dest.MapFrom(src => src.CommunicationInfos)); 
+                                           dest => dest.MapFrom(src => src.CommunicationInfos));
             mapperConfiguration.CreateMap<CommunicationInfoEntity, CommunicationInfoDTO>()
                                 .ForMember(meb => meb.Type,
                                            dest => dest.MapFrom(map => map.ContentType));
@@ -23,6 +24,10 @@ namespace PhoneContact.Engine.Mapper
             mapperConfiguration.CreateMap<ContactEntity, ContactDTO>()
                                 .ForMember(member => member.CommunicationInfos,
                                            dest => dest.MapFrom(src => src.CommunicationInfo));
+            mapperConfiguration.CreateMap<CommunicationRequestModel, CommunicationInfoEntity>()
+                .ForMember(meb => meb.Info, dest => dest.MapFrom(map => map.Content))
+                .ForMember(meb => meb.Type, dest => dest.MapFrom(map => map.Type))
+                .ForMember(meb => meb.ContactId, dest => dest.MapFrom(map => map.UUID));
         }
     }
 }
