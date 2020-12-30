@@ -29,6 +29,11 @@ namespace PhoneContact.Api.Controllers
         {
             return _contactService.Get();
         }
+        [HttpGet]
+        public Task<ContactDTO> Get(int id)
+        {
+            return _contactService.GetById(id);
+        }
         [HttpPost]
         public Task<int> AddCommunication([FromBody] CommunicationRequestModel requestModel)
         {
