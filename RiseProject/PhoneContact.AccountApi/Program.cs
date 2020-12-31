@@ -19,10 +19,12 @@ namespace PhoneContact.AccountApi
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(webBuilder =>
-                {
-                    webBuilder.UseUrls("http://localhost:7002/").UseStartup<Startup>();
-                });
-        
+            .ConfigureWebHostDefaults(webBuilder =>
+            {
+                //webBuilder.UseUrls("http://localhost:7002/");
+                webBuilder.UseStartup<Startup>();
+            })
+            ;
+
     }
 }

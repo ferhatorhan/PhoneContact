@@ -21,8 +21,10 @@ namespace PhoneContact.Api
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    webBuilder.UseUrls("http://localhost:7001/").UseStartup<Startup>();
-                });
+                    //webBuilder.UseUrls("http://localhost:50484/");
+                    webBuilder.UseStartup<Startup>();
+                })
+            ;
 
     }
 }

@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Enums\" />
     <Folder Include="Contract\" />
     <Folder Include="Model\Response\" />
   </ItemGroup>

@@ -45,3 +45,9 @@ D:\ferhat\PhoneContact\RiseProject\PhoneContact.ApiGateWay\obj\Debug\net5.0\Phon
 D:\ferhat\PhoneContact\RiseProject\PhoneContact.ApiGateWay\obj\Debug\net5.0\PhoneContact.ApiGateWay.dll
 D:\ferhat\PhoneContact\RiseProject\PhoneContact.ApiGateWay\obj\Debug\net5.0\ref\PhoneContact.ApiGateWay.dll
 D:\ferhat\PhoneContact\RiseProject\PhoneContact.ApiGateWay\obj\Debug\net5.0\PhoneContact.ApiGateWay.pdb
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.ApiGateWay\bin\Debug\net5.0\PhoneContact.ApiGateWay.deps.json
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.ApiGateWay\bin\Debug\net5.0\PhoneContact.ApiGateWay.runtimeconfig.json
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.ApiGateWay\bin\Debug\net5.0\PhoneContact.ApiGateWay.runtimeconfig.dev.json
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.ApiGateWay\bin\Debug\net5.0\ref\PhoneContact.ApiGateWay.dll
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.ApiGateWay\bin\Debug\net5.0\PhoneContact.ApiGateWay.pdb
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.ApiGateWay\obj\Debug\net5.0\PhoneContact.ApiGateWay.genruntimeconfig.cache

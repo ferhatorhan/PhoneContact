@@ -7,10 +7,10 @@ namespace PhoneContact.AccountApi.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class Users : ControllerBase
+    public class UsersController : ControllerBase
     {
         private readonly IUSerServices _User;
-        public Users(IUSerServices user)
+        public UsersController(IUSerServices user)
         {
             _User = user;
         }

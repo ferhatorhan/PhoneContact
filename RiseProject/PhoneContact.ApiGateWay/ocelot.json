@@ -6,7 +6,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 50484
+          "Port": 58170
         }
       ],
       "UseServiceDiscovery": true,
@@ -24,7 +24,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 58170
+          "Port": 50484
         }
       ],
       "UseServiceDiscovery": true,
@@ -41,6 +41,6 @@
     "ServiceDiscoveryProvider": {
       "Type": "Eureka"
     },
-    "BaseUrl": "http://localhost:58243/contact-service"
+    "BaseUrl": "http://localhost:58243/"
   }
 }
