@@ -1,17 +1,17 @@
 # Telefon Rehberi
 telefon rehber uygulması
 
-#Migration Oluşturulması
+# Migration Oluşturulması
  add-migration PhoneContact
  
-#VeriTabanı değiştirilmesi
+# VeriTabanı değiştirilmesi
 proje MsSql İle oluşturulmuştur. Eğer sizler isterseniz startup içersinden değişiklik yapabilirsiniz.
 
-#Msql için
+# Msql için
  options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
  
-#Postgresql için
+# Postgresql için
  options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));//
  
-#Migration için
+# Migration için
 Add-Migration InitialCreate
