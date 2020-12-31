@@ -67,3 +67,17 @@ D:\ferhat\PhoneContact\RiseProject\PhoneContact.AccountApi\obj\Debug\net5.0\Phon
 D:\ferhat\PhoneContact\RiseProject\PhoneContact.AccountApi\obj\Debug\net5.0\PhoneContact.AccountApi.dll
 D:\ferhat\PhoneContact\RiseProject\PhoneContact.AccountApi\obj\Debug\net5.0\ref\PhoneContact.AccountApi.dll
 D:\ferhat\PhoneContact\RiseProject\PhoneContact.AccountApi\obj\Debug\net5.0\PhoneContact.AccountApi.pdb
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.AccountApi\bin\Debug\net5.0\appsettings.Development.json
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.AccountApi\bin\Debug\net5.0\appsettings.json
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.AccountApi\bin\Debug\net5.0\PhoneContact.AccountApi.deps.json
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.AccountApi\bin\Debug\net5.0\PhoneContact.AccountApi.runtimeconfig.json
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.AccountApi\bin\Debug\net5.0\PhoneContact.AccountApi.runtimeconfig.dev.json
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.AccountApi\bin\Debug\net5.0\ref\PhoneContact.AccountApi.dll
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.AccountApi\bin\Debug\net5.0\PhoneContact.AccountApi.pdb
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.AccountApi\bin\Debug\net5.0\Castle.Core.dll
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.AccountApi\bin\Debug\net5.0\MemoryCache.Testing.Common.dll
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.AccountApi\bin\Debug\net5.0\MemoryCache.Testing.Moq.dll
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.AccountApi\bin\Debug\net5.0\Moq.dll
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.AccountApi\bin\Debug\net5.0\rgvlee.Core.Common.dll
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.AccountApi\obj\Debug\net5.0\PhoneContact.AccountApi.csproj.CopyComplete
+D:\ferhat\PhoneContact\RiseProject\PhoneContact.AccountApi\obj\Debug\net5.0\PhoneContact.AccountApi.genruntimeconfig.cache
